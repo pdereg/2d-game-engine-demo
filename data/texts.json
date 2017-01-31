@@ -1,0 +1,142 @@
+[
+  {
+    "id": "scripted-bytes",
+    "text": "2D Game Engine - Demo"
+  },
+  {
+    "id": "menu-continue-game",
+    "text": "Continue"
+  },
+  {
+    "id": "menu-new-game",
+    "text": "New Game"
+  },
+  {
+    "id": "menu-quit",
+    "text": "Quit"
+  },
+  {
+    "id": "menu-version",
+    "text": "Version"
+  },
+  {
+    "id": "menu-continue",
+    "text": "Continue"
+  },
+  {
+    "id": "menu-exit",
+    "text": "Exit"
+  },
+  {
+    "id": "menu-yes",
+    "text": "Yes"
+  },
+  {
+    "id": "menu-no",
+    "text": "No"
+  },
+  {
+    "id": "menu-exit-question",
+    "text": "Are you sure to exit the game?"
+  },
+  {
+    "id": "button-ok",
+    "text": "OK"
+  },
+  {
+    "id": "ingame-paused",
+    "text": "Paused"
+  },
+  {
+    "id": "game-saving",
+    "text": "Saving..."
+  },
+  {
+    "id": "welcome",
+    "text": "Welcome to this short tech demo!\n\nTo move around, press: UP/DOWN/LEFT/RIGHT\nTo talk to characters, press when close: Z\nTo confirm pop-ups, press: ENTER\n\nAll art in the game is used under Creative Commons\nor GPL licenses. For more information, please refer\nto the CREDITS.txt file."
+  },
+  {
+    "id": "location-trader-house",
+    "text": "Trader's House"
+  },
+  {
+    "id": "location-village",
+    "text": "Village"
+  },
+  {
+    "id": "trader-hello-t1",
+    "text": "Oh, how did you get in here?"
+  },
+  {
+    "id": "trader-hello-t2",
+    "text": "This place is off\nlimits. Trading hasn't\nbeen implemented yet so\nthere's no point coming\nhere..."
+  },
+  {
+    "id": "trader-nothing-to-see-here-t1",
+    "text": "As I said, there's\nnothing to see here...\nCome back when trading\ngets implemented..."
+  },
+  {
+    "id": "trader-nothing-to-see-here-p1",
+    "text": "Okay..."
+  },
+  {
+    "id": "trader-night-t1",
+    "text": "Did you really just come\nback here in the middle\nof the night?"
+  },
+  {
+    "id": "trader-night-t2",
+    "text": "Geez, get a life!"
+  },
+  {
+    "id": "player-cave-blocked",
+    "text": "Entrance is blocked..."
+  },
+  {
+    "id": "player-huh",
+    "text": "Huh?"
+  },
+  {
+    "id": "goblin-transformation-g1",
+    "text": "Haha! Try pushing me now!"
+  },
+  {
+    "id": "goblin-what-the",
+    "text": "What the... ?"
+  },
+  {
+    "id": "enter_arena",
+    "text": "Enter arena"
+  },
+  {
+    "id": "walk_away",
+    "text": "Walk away"
+  },
+  {
+    "id": "location-arena",
+    "text": "Arena"
+  },
+  {
+    "id": "no-boss-battle-b1",
+    "text": "So you're already here..."
+  },
+  {
+    "id": "no-boss-battle-b2",
+    "text": "I'm the boss you were\nsupposed to fight..."
+  },
+  {
+    "id": "no-boss-battle-b3",
+    "text": "To be honest I didn't expect\nyou to arrive that early..."
+  },
+  {
+    "id": "no-boss-battle-b4",
+    "text": "The thing is...\nFighting mechanics aren't\nimplemented yet..."
+  },
+  {
+    "id": "no-boss-battle-b5",
+    "text": "I guess this whole\natmospheric setup is\nalso unnecessary..."
+  },
+  {
+    "id": "talk-to-the-goblins",
+    "text": "Try talking to the three goblins\nscattered across the map."
+  }
+]

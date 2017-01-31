@@ -1,0 +1,110 @@
+[Licenses]
+
+CC0 https://creativecommons.org/publicdomain/zero/1.0/
+CC BY 3.0: https://creativecommons.org/licenses/by/3.0/legalcode
+CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+GPL 3.0: https://www.gnu.org/licenses/gpl-3.0.html
+GPL 2.0: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+LGPL 3.0: https://www.gnu.org/licenses/lgpl-3.0.html
+LGPL 2.1: https://www.gnu.org/licenses/lgpl-2.1.html
+
+
+[Images]
+
+File: data/images/dragon.png
+Author: Clint Bellanger and Justin Nichol (Collaborator)
+Source: http://opengameart.org/content/wyvern-1
+Modifications: Cropped
+License: CC-BY-SA 3.0
+
+File: data/images/bear.png
+Author: johndh
+Source: http://opengameart.org/content/werebear-flare-sprite-sheets
+Modifications: Cropped
+License: CC-BY-SA 3.0, GPL 2.0, GPL 3.0
+
+File: data/images/goblin.png
+Author: VWolfdog and Clint Bellanger (Collaborator)
+Source: http://opengameart.org/content/flare-mod-hobgoblin
+Modifications: Cropped
+License: CC-BY 3.0
+
+File: data/images/player.png
+Author: Clint Bellanger
+Source: http://opengameart.org/content/isometric-hero-and-heroine
+Modifications: Blended and cropped
+License: CC-BY 3.0
+
+File: data/images/props.png (animated flame)
+Author: dorkster
+Source: http://opengameart.org/content/animated-flame
+Modifications: Embedded within a larger image
+License: CC-BY-SA 3.0
+
+File: data/images/props.png
+Author: Daniel Cook
+Source: http://www.lostgarden.com/2006/07/more-free-game-graphics.html
+Modifications: Resized, cropped and embedded within a larger image
+License: CC-BY 3.0
+
+File: data/images/tileset.png (lava tiles)
+File: data/maps/images/tileset.png (lava tiles)
+Author: Lanea Zimmerman
+Source: http://opengameart.org/content/tiled-terrains
+Modifications: Cropped and embedded within a larger image
+License: CC-BY-SA 3.0
+
+File: data/images/tileset.png
+File: data/maps/images/tileset.png
+Author: Daniel Cook
+Source: http://www.lostgarden.com/2006/07/more-free-game-graphics.html
+Modifications: Resized and embedded within a larger image
+License: CC-BY 3.0
+
+File: data/images/trader.png
+Author: TiZiana
+Source: http://opengameart.org/content/wandering-vendor-npc
+License: LGPL 2.1, LGPL 3.0, CC-BY 3.0
+
+
+[Music]
+
+File: data/music/arena.ogg
+Author: mudkip_dreams
+Source: http://opengameart.org/content/theme-of-com-mecha
+Modifications: Normalized audio and converted to a different format
+License: CC-BY 3.0
+
+File: data/music/menu_main.ogg
+Author: pixelsphere.org / cynicmusic
+Source: http://opengameart.org/content/mysterious-ambience-song21
+Modifications: Normalized audio and converted to a different format
+License: CC-BY 3.0, CC-BY-SA 3.0, GPL 3.0
+
+File: data/music/night_music.ogg
+Author: Vinrax
+Source: http://opengameart.org/content/horror-ambient
+Modifications: Normalized audio and converted to a different format
+License: CC-BY 3.0, GPL 3.0, GPL 2.0
+
+File: data/music/trader_house.ogg
+Author: remaxim
+Source: http://opengameart.org/content/safe-room-theme
+Modifications: Normalized audio and converted to a different format
+License: CC-BY-SA 3.0, GPL 3.0, GPL 2.0
+
+
+[Sounds]
+
+File: data/sounds/goblin_1.ogg
+File: data/sounds/goblin_2.ogg
+Author: artisticdude
+Source: http://opengameart.org/content/goblins-sound-pack
+Modifications: Normalized audio and converted to a different format
+License: CC0
+
+File: data/sounds/walk.ogg
+Author: Jute
+Source: http://opengameart.org/content/foot-walking-step-sounds-on-stone-water-snow-wood-and-dirt
+Modifications: Normalized audio and converted to a different format
+License: GPL 3.0, GPL 2.0

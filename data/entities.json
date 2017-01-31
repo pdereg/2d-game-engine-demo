@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Camera",
+    "size": [
+      832,
+      624
+    ],
+    "acceleration": 72,
+    "maxVelocity": 72
+  },
+  {
+    "name": "Player",
+    "maxHitPoints": 100,
+    "size": [
+      64,
+      64
+    ],
+    "sprite": "images/player.png",
+    "acceleration": 96,
+    "maxVelocity": 96,
+    "collisionBox": [
+      22,
+      22
+    ],
+    "collisionOffset": [
+      0,
+      -3
+    ],
+    "triggerRadius": 24,
+    "triggerOffset": [
+      0,
+      -14
+    ],
+    "animations": [
+      {
+        "name": "player-idle",
+        "primaryState": "idle",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "player-idle",
+        "primaryState": "waiting",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "player-idle",
+        "primaryState": "idle",
+        "secondaryState": "talking"
+      },
+      {
+        "name": "player-run",
+        "primaryState": "moving",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "player-run",
+        "primaryState": "moving",
+        "secondaryState": "talking"
+      }
+    ],
+    "attenuation": 1,
+    "sounds": [
+      {
+        "sound": "sounds/walk.ogg",
+        "interval": 380,
+        "primaryState": "moving",
+        "secondaryState": "idle"
+      }
+    ],
+    "scriptProcesses": [
+      "test"
+    ]
+  },
+  {
+    "name": "Goblin",
+    "maxHitPoints": 100,
+    "size": [
+      64,
+      64
+    ],
+    "sprite": "images/goblin.png",
+    "acceleration": 96,
+    "maxVelocity": 96,
+    "collisionBox": [
+      24,
+      8
+    ],
+    "collisionOffset": [
+      0,
+      -14
+    ],
+    "triggerRadius": 24,
+    "triggerOffset": [
+      0,
+      -14
+    ],
+    "animations": [
+      {
+        "name": "goblin-idle",
+        "primaryState": "idle",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "goblin-idle",
+        "primaryState": "waiting",
+        "secondaryState": "talking"
+      },
+      {
+        "name": "goblin-idle",
+        "primaryState": "waiting",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "goblin-run",
+        "primaryState": "moving",
+        "secondaryState": "idle"
+      }
+    ]
+  },
+  {
+    "name": "Trader",
+    "size": [
+      32,
+      64
+    ],
+    "sprite": "images/trader.png",
+    "acceleration": 96,
+    "maxVelocity": 96,
+    "collisionBox": [
+      18,
+      14
+    ],
+    "collisionOffset": [
+      -2,
+      -5
+    ],
+    "triggerRadius": 28,
+    "triggerOffset": [
+      -2,
+      -11
+    ],
+    "animations": [
+      {
+        "name": "trader-idle",
+        "primaryState": "idle",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "trader-idle",
+        "primaryState": "idle",
+        "secondaryState": "talking"
+      }
+    ]
+  },
+  {
+    "name": "Dragon",
+    "maxHitPoints": 100,
+    "size": [
+      256,
+      256
+    ],
+    "sprite": "images/dragon.png",
+    "acceleration": 224,
+    "maxVelocity": 224,
+    "collisionBox": [
+      8,
+      8
+    ],
+    "collisionOffset": [
+      0,
+      0
+    ],
+    "triggerRadius": 24,
+    "triggerOffset": [
+      0,
+      0
+    ],
+    "animations": [
+      {
+        "name": "dragon-idle",
+        "primaryState": "idle",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "dragon-idle",
+        "primaryState": "waiting",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "dragon-fly",
+        "primaryState": "moving",
+        "secondaryState": "idle"
+      }
+    ]
+  },
+  {
+    "name": "Bear",
+    "size": [
+      128,
+      128
+    ],
+    "collisionBox": [
+      30,
+      30
+    ],
+    "collisionOffset": [
+      0,
+      -20
+    ],
+    "sprite": "images/bear.png",
+    "animations": [
+      {
+        "name": "bear-idle",
+        "primaryState": "idle",
+        "secondaryState": "idle"
+      },
+      {
+        "name": "bear-idle",
+        "primaryState": "idle",
+        "secondaryState": "talking"
+      }
+    ],
+    "triggerRadius": 32,
+    "triggerOffset": [
+      0,
+      -36
+    ],
+    "speechOffset": [
+      0,
+      48
+    ]
+  },
+  {
+    "name": "Statue",
+    "size": [
+      38,
+      75
+    ],
+    "collisionBox": [
+      36,
+      25
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "statue_idle",
+        "primaryState": "idle"
+      },
+      {
+        "name": "statue_waiting",
+        "primaryState": "waiting"
+      }
+    ],
+    "lightFlicker": 64,
+    "lightRadius": 128,
+    "triggerRadius": 32
+  },
+  {
+    "name": "house_light_source",
+    "isLit": true,
+    "lightFlicker": 8,
+    "lightRadius": 256
+  },
+  {
+    "name": "tree_1",
+    "size": [
+      110,
+      96
+    ],
+    "sprite": "images/props.png",
+    "collisionBox": [
+      50,
+      28
+    ],
+    "collisionOffset": [
+      5,
+      -10
+    ],
+    "animations": [
+      {
+        "name": "tree_1"
+      }
+    ]
+  },
+  {
+    "name": "tree_2",
+    "size": [
+      68,
+      108
+    ],
+    "sprite": "images/props.png",
+    "collisionBox": [
+      32,
+      26
+    ],
+    "collisionOffset": [
+      0,
+      -5
+    ],
+    "animations": [
+      {
+        "name": "tree_2"
+      }
+    ]
+  },
+  {
+    "name": "tree_3",
+    "size": [
+      110,
+      96
+    ],
+    "sprite": "images/props.png",
+    "collisionBox": [
+      50,
+      28
+    ],
+    "collisionOffset": [
+      5,
+      -10
+    ],
+    "animations": [
+      {
+        "name": "tree_3"
+      }
+    ]
+  },
+  {
+    "name": "tree_4",
+    "size": [
+      68,
+      108
+    ],
+    "sprite": "images/props.png",
+    "collisionBox": [
+      32,
+      26
+    ],
+    "collisionOffset": [
+      0,
+      -5
+    ],
+    "animations": [
+      {
+        "name": "tree_4"
+      }
+    ]
+  },
+  {
+    "name": "stone_1",
+    "size": [
+      40,
+      31
+    ],
+    "sprite": "images/props.png",
+    "collisionBox": [
+      35,
+      13
+    ],
+    "animations": [
+      {
+        "name": "stone_1"
+      }
+    ]
+  },
+  {
+    "name": "stone_2",
+    "size": [
+      29,
+      56
+    ],
+    "sprite": "images/props.png",
+    "collisionBox": [
+      29,
+      17
+    ],
+    "animations": [
+      {
+        "name": "stone_2"
+      }
+    ]
+  },
+  {
+    "name": "table_1",
+    "size": [
+      108,
+      108
+    ],
+    "collisionBox": [
+      108,
+      98
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "table_1"
+      }
+    ]
+  },
+  {
+    "name": "chair_1",
+    "size": [
+      29,
+      44
+    ],
+    "collisionBox": [
+      29,
+      22
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "chair_1"
+      }
+    ]
+  },
+  {
+    "name": "chest_1",
+    "size": [
+      38,
+      34
+    ],
+    "collisionBox": [
+      38,
+      28
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "chest_1"
+      }
+    ]
+  },
+  {
+    "name": "flame",
+    "isLit": true,
+    "lightFlicker": 16,
+    "lightRadius": 256,
+    "size": [
+      32,
+      32
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "flame"
+      }
+    ]
+  },
+  {
+    "name": "red_flame",
+    "isLit": true,
+    "lightFlicker": 16,
+    "lightRadius": 256,
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "lightColor": [
+      255,
+      0,
+      0
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "flame"
+      }
+    ]
+  },
+  {
+    "name": "green_flame",
+    "isLit": true,
+    "lightFlicker": 16,
+    "lightRadius": 256,
+    "color": [
+      0,
+      255,
+      0
+    ],
+    "lightColor": [
+      0,
+      255,
+      0
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "flame"
+      }
+    ]
+  },
+  {
+    "name": "blue_flame",
+    "isLit": true,
+    "lightFlicker": 16,
+    "lightRadius": 256,
+    "color": [
+      0,
+      0,
+      255
+    ],
+    "lightColor": [
+      0,
+      0,
+      255
+    ],
+    "size": [
+      32,
+      32
+    ],
+    "sprite": "images/props.png",
+    "animations": [
+      {
+        "name": "flame"
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+{
+  "resources": [
+    {
+      "type": "font",
+      "filePath": "fonts/font.ttf"
+    },
+    {
+      "type": "image",
+      "filePath": "images/bear.png"
+    },
+    {
+      "type": "image",
+      "filePath": "images/dragon.png"
+    },
+    {
+      "type": "image",
+      "filePath": "images/goblin.png"
+    },
+    {
+      "type": "image",
+      "filePath": "images/player.png"
+    },
+    {
+      "type": "image",
+      "filePath": "images/props.png"
+    },
+    {
+      "type": "image",
+      "filePath": "images/tileset.png"
+    },
+    {
+      "type": "image",
+      "filePath": "images/trader.png"
+    },
+    {
+      "type": "sound",
+      "filePath": "sounds/goblin_1.ogg"
+    },
+    {
+      "type": "sound",
+      "filePath": "sounds/goblin_2.ogg"
+    },
+    {
+      "type": "sound",
+      "filePath": "sounds/walk.ogg"
+    },
+    {
+      "type": "music",
+      "filePath": "music/arena.ogg"
+    },
+    {
+      "type": "music",
+      "filePath": "music/menu_main.ogg"
+    },
+    {
+      "type": "music",
+      "filePath": "music/night_music.ogg"
+    },
+    {
+      "type": "music",
+      "filePath": "music/trader_house.ogg"
+    },
+    {
+      "type": "text",
+      "filePath": "animations.json"
+    },
+    {
+      "type": "text",
+      "filePath": "entities.json"
+    },
+    {
+      "type": "text",
+      "filePath": "texts.json"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/events.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/main.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/story_helper.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/cameras/player.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/characters/bear.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/characters/goblin.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/characters/player.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/characters/statue.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/characters/trader.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/locations/arena.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/locations/locations.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/locations/trader_house.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/game/locations/village.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "scripts/menu/main.lua"
+    },
+    {
+      "type": "text",
+      "filePath": "maps/game_world.tmx"
+    },
+    {
+      "type": "text",
+      "filePath": "maps/main_menu.tmx"
+    }
+  ]
+}
