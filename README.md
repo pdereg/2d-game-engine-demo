@@ -45,7 +45,10 @@ A high-level API is exposed to ease game level scripting. A comprehensive docume
 Below are animated GIFs that present some of the things that are possible to do with the engine.
 
 ![Running around obstacles](media/running_around_obstacles.gif)
+![Main Menu](media/main_menu.gif)
 
 ![Night lights](media/night_lights.gif)
+![More lights](media/more_lights.gif)
 
 ![Dialogue](media/dialogue.gif)
+![Dialog Box](media/dialog_box.gif)
