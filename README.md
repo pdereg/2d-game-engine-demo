@@ -15,7 +15,13 @@ The game requires [SFML 2.3](http://www.sfml-dev.org/) and [LuaJIT 5.1](http://l
 
 For Ubuntu-based distributions (assuming that git is installed), the entire installation process may be accomplished with the following commands:
 ```bash
-mkdir -p ~/game-demo && cd ~/game-demo && git clone https://github.com/pdereg/2d-game-engine-demo.git && sudo apt-get install libsfml-graphics2.3v5 libsfml-network2.3v5 libsfml-system2.3v5 libsfml-window2.3v5 libsfml-audio2.3v5 libluajit-5.1-2 -y
+git clone https://github.com/pdereg/2d-game-engine-demo.git && sudo apt-get install libsfml-graphics2.3v5 libsfml-network2.3v5 libsfml-system2.3v5 libsfml-window2.3v5 libsfml-audio2.3v5 libluajit-5.1-2 -y
+```
+###Fedora 25
+
+For Fedora (assuming that git is installed), the entire installation process may be accomplished with the following commands:
+```bash
+git clone https://github.com/pdereg/2d-game-engine-demo.git && sudo dnf install luajit SFML -y
 ```
 
 ##Modding
