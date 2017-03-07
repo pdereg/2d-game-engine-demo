@@ -78,12 +78,13 @@ local function play_intro()
     local camera = Camera.new("Camera")
     local height = camera.height
 
-    Cutscene:play(function()
-        camera.x = 2320
-        camera.y = 2886
-        camera.height = 0
-        camera:record()
-    end,
+    Cutscene:play(
+        function()
+            camera.x = 2320
+            camera.y = 2886
+            camera.height = 0
+            camera:record()
+        end,
         function()
             Interface:show_notification("scripted-bytes", Position.Center, true)
         end,
@@ -99,7 +100,8 @@ local function play_intro()
         end,
         function()
             Interface:show_message("welcome")
-        end)
+        end
+    )
 end
 
 
