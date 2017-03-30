@@ -1,8 +1,8 @@
-#Interface
+# Interface
 Interface is a globally accessible singleton which provides access to the in-game graphical user interface.
 
 
-###Methods
+### Methods
 ```
 Interface:show_message(text_id: string) -> nil
 ```
