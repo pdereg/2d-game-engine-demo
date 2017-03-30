@@ -1,4 +1,4 @@
-#Cutscene
+# Cutscene
 Cutscene is a globally accessible singleton convenience object that allows for creating in-game cutscenes. Its main
 purpose is to greatly ease the creation of complex cutscenes that would otherwise require writing a lot of boilerplate
 code.
@@ -6,7 +6,7 @@ code.
 Cutscenes make use of "hidden" hooks provided by the engine and thus don't interfere with regular event callbacks.
 
 
-###Methods
+### Methods
 
 ```
 Cutscene:play(action: [array, function] ...) -> nil
