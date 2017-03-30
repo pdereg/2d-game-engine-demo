@@ -1,4 +1,4 @@
-#Event
+# Event
 Event is a globally accessible singleton event dispatcher to be used exclusively by Lua scripts. The dispatcher itself
 doesn't communicate with the engine and its main purpose is to provide an easy and clean way for various scripts to
 communicate with each other without unnecessary coupling.
@@ -8,7 +8,7 @@ to the event type that is being raised. Because of that, it is recommended to li
 inside the callbacks.
 
 
-###Methods
+### Methods
 
 ```
 Event:raise(type: string, payload: [string, number, boolean, array, function]) -> number
