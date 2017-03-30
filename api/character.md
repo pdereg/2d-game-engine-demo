@@ -1,4 +1,4 @@
-##Character
+## Character
 Character is the most complex type of entity in the game. It supports animated sprites, can play sounds, move around,
 collide with environment, emit light, be triggered by player's entity and more. **Up to 256 characters can exist
 simultaneously in the game.**
@@ -13,7 +13,7 @@ set - if setting a callback for the second time, the previously set callback wil
 set in order to remove any previously set callbacks.
 
 
-###Constructors
+### Constructors
 
 ```
 Character.new(name: string) -> Character
@@ -21,7 +21,7 @@ Character.new(name: string) -> Character
 Creates and returns a new character built from an entity template of a given `name`.
 
 
-###Attributes
+### Attributes
 
 ```
 .id -> number
@@ -199,7 +199,7 @@ Returns whether character is currently talking (read-only).
 Returns whether character is currently waiting (read-only).
 
 
-###Methods
+### Methods
 
 ```
 :remove() -> nil
@@ -247,7 +247,7 @@ Adds a new wait process to the character's process queue. The character will wai
 Stops character's current processes and clears its entire process queue.
 
 
-###Callbacks
+### Callbacks
 
 ```
 .on_collided -> function(id: number)
