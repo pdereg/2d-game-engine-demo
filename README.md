@@ -3,7 +3,7 @@ This is a an early tech demo of my 2D game engine.
 
 The game engine itself is written in modern C++. It's scriptable with Lua and JSON. It supports basic features, such as 2D graphics & animations, stereo sound, simple cutscenes, save games, dialogues, lighting, and day & night cycles.
 
-** For now, only the tech demo (along with the scripting API) is open-sourced and not the engine itself.** 
+**For now, only the tech demo (along with the scripting API) is open-sourced and not the engine itself.** 
 
 ## Disclaimer
 Note that the art assets (images, sounds, music, fonts) used in the demo are NOT my work - they come from various authors with whom I'm not affiliated in any way. Refer to [CREDITS.txt](CREDITS.txt) file for more information.
