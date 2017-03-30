@@ -1,8 +1,8 @@
-#Audio
+# Audio
 Audio is a globally accessible singleton that provides a convenient way to communicate with the audio device.
 
 
-###Attributes
+### Attributes
 
 ```
 Audio.volume -> number
@@ -11,7 +11,7 @@ Audio.volume -> number
 Defines global volume level for the audio device.
 
 
-###Methods
+### Methods
 
 ```
 Audio:play_music(file_path: string, fade_in: boolean) -> nil
