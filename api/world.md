@@ -1,8 +1,8 @@
-#World
+# World
 World is a globally accessible singleton which provides access to the in-game world.
 
 
-###Attributes
+### Attributes
 
 ```
 .hour -> number
@@ -10,7 +10,7 @@ World is a globally accessible singleton which provides access to the in-game wo
 Defines hour of the day.
 
 
-###Callbacks
+### Callbacks
 
 ```
 .on_time_changed -> function(hour: number)
