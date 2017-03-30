@@ -1,4 +1,4 @@
-#Camera
+# Camera
 Camera is a lightweight type of entity. It has a special ability to "record" a part of the screen according to its
 position and size. Only one camera can "record" the screen at any given time. **Up to 8 cameras can exist simultaneously
 in the game.**
@@ -13,7 +13,7 @@ set - if setting a callback for the second time, the previously set callback wil
 set in order to remove any previously set callbacks.
 
 
-###Constructors
+### Constructors
 
 ```
 Camera.new(name: string) -> Camera
@@ -21,7 +21,7 @@ Camera.new(name: string) -> Camera
 Creates and returns a new camera built from an entity template of a given `name`.
 
 
-###Attributes
+### Attributes
 
 ```
 .id -> number
@@ -89,7 +89,7 @@ Returns whether camera is currently resizing (read-only).
 Returns whether camera is currently waiting (read-only).
 
 
-##Methods
+### Methods
 
 ```
 :remove() -> nil
@@ -122,7 +122,7 @@ Adds a new wait process to the camera's process queue. The camera will wait a gi
 Stops camera's current processes and clears its entire process queue.
 
 
-###Callbacks
+### Callbacks
 
 ```
 .on_primary_idle -> function()
