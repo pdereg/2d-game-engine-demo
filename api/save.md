@@ -1,4 +1,4 @@
-#Save
+# Save
 Save is a globally accessible singleton game saving mechanism. Its main purpose is to provide a convenient way for
 storing and retrieving data to/from game's save file.
 
@@ -9,7 +9,7 @@ use of the mechanism throughout the codebase without worrying about the performa
 **Currently, only simple data types can be stored in save data, such as strings, numbers and booleans.**
 
 
-###Methods
+### Methods
 
 ```
 Save:read_character(key: string, character: Character) -> nil
