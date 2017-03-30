@@ -1,8 +1,8 @@
-#Game
+# Game
 Game is a globally accessible singleton which provides access to the game's meta data and methods.
 
 
-###Attributes
+### Attributes
 
 ```
 .is_interactive -> boolean
