@@ -1,15 +1,15 @@
-#Display
+# Display
 Display is a globally accessible singleton that provides a convenient way to communicate with the display device.
 
 
-###Attributes
+### Attributes
 ```
 Display.post_processing -> PostProcessing
 ```
 Defines post processing to apply to the rendered content.
 
 
-###Methods
+### Methods
 ```
 Display:add_transition(transition: Transition) -> Display
 ```
